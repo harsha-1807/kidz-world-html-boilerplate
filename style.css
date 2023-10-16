@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    overflow-x: hidden;
+}
+
+#header{
+    height: 50px;
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 70px;
+    /* border: 1px solid blue; */
+    
+}
+#right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid blue; */
+    width: 200px;
+    margin: 10px;
+}
+#logo{
+    /* padding: ; */
+    height: 27px
+
+
+}
+#cart{
+    height: 25px
+}
+#bg-img{
+    background-image: url(./assets/kw-background.png) ;
+    width: 100vw;
+    height: 63vh;
+    background-size: 100vw 63vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    /* border: 1px solid blue; */
+    /* padding: 20px; */
+    background-repeat: no-repeat;
+
+}
+
+#bg-img div{
+    /* border: 1px solid blue; */
+    width: 30vw;
+    margin-left: 60px;
+    
+    height: 40vh;
+    
+}
+h1{
+    font-size: 70px;
+
+}
+#books{
+    display: flex;
+    justify-content: space-around;
+}
+.book-img{
+    height:155px;
+    width:115px;
+}
