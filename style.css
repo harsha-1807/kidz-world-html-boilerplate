@@ -33,8 +33,17 @@
 .add{
     display: flex;
     background-color: #6196FF;
-    width: 70px;
+    width: 47px;
     height: 20px;
+    border-radius: 10%;
+    color: white;
+    align-items: center;
+    font-size: 80%;
+    justify-content: space-evenly;
+}
+
+.add img{
+    height: 13px;
 }
 .price{
     display: flex;
@@ -71,11 +80,28 @@ h1{
     font-size: 70px;
 
 }
+
+
+#group1,#group2,#group3{
+    display: flex;
+    flex-direction: column;
+}
+#group1 h2,#group2 h2,#group3 h2{
+    margin-left: 90px;
+}
+#books{
+    padding-left: 50px;
+    padding-right: 100px;
+
+}
 #books,#games,#arts{
     display: flex;
     justify-content: space-around;
+    margin-bottom: 100px;
 }
-.book-img,.game-img,.art-img{
+.book-img{
+    width: 150px;
+}.game-img,.art-img{
     
     width:200px;
 }
