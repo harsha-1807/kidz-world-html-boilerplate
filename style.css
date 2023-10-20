@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Rubik:wght@400;600&display=swap");
+
+
+
 *{
     padding: 0;
     margin: 0;
@@ -50,6 +54,9 @@
     justify-content: space-between;
 
 }
+.price p{
+    color: white;
+}
 #cart{
     height: 25px
 }
@@ -80,6 +87,15 @@ h1{
     font-size: 70px;
 
 }
+h2 {
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+  }
+  
+  p {
+    color: grey;
+    font-weight: lighter;
+  }
 
 
 #group1,#group2,#group3{
@@ -87,7 +103,7 @@ h1{
     flex-direction: column;
 }
 #group1 h2,#group2 h2,#group3 h2{
-    margin-left: 90px;
+    margin-left: 90px
 }
 #books{
     padding-left: 50px;
@@ -124,4 +140,16 @@ h1{
 }
 .foots{
     margin: 30px;
+}
+
+@media only screen and (max-width:600px){
+#header { 
+    height : 200px;
+    font-size: 20px;
+    text-align: start;
+      
+ }
+
+
+    
 }
